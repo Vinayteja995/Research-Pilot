@@ -96,36 +96,8 @@ researchpilot/
 
 ## 🚀 Quick Start Instructions
 
-You can run ResearchPilot using **Docker Compose (Recommended, Zero Setup)** or **Locally (Recommended for development)**.
+You can run ResearchPilot using **Locally (Recommended for development)**.
 
-### Option A: Running with Docker Compose (Zero Setup)
-
-With Docker, you do not need to install Node, Python, or standard libraries locally. 
-
-#### 1. Set Up Your API Key
-Create a `.env` file in the root folder (where `docker-compose.yml` resides):
-```env
-GEMINI_API_KEY=your_gemini_api_key_here
-```
-
-#### 2. Start the Application
-Spin up the multi-container ecosystem in detached mode:
-```bash
-docker compose up -d --build
-```
-* **Dashboard Client**: Access [http://localhost:3000](http://localhost:3000) in your web browser.
-* **FastAPI Server**: Live at [http://localhost:8000](http://localhost:8000) (Swagger Docs at `/docs`).
-* **Persistence**: Local volumes mount `researchpilot.db` and downloaded PDFs directly inside your workspace!
-
-#### 3. Stop the Application
-To shut down all services cleanly:
-```bash
-docker compose down
-```
-
----
-
-### Option B: Running Locally (Fastest for Development)
 
 #### 1. Start the Backend API
 Set the Gemini key in your host terminal environment, install requirements under a virtual environment, and boot the server:
@@ -202,5 +174,5 @@ backend\tests\test_report.py .                                           [100%]
 ---
 
 <div align="center">
-  <sub>Developed by P Vinay Teja</sub>
+  <sub>Developed by  VINAY TEJA P</sub>
 </div>
